@@ -1,0 +1,17 @@
+{
+  "rows": {
+    "natural-library:RDCRUISE": {
+      "state": "planned",
+      "reason": "Deferred from Natural+Adabas v1: the upstream Natural-for-Ajax adapter references RDCRUISA.NS8, a PROCESS PAGE target absent from the Apache-2.0 source repository. The sources remain vendored and provenance-pinned, but are excluded from the installed compile set until that dependency can be supplied."
+    }
+  },
+  "files": {},
+  "vendorSupplied": {},
+  "seedProvenance": {},
+  "infrastructure": [
+    "data/adabas.json",
+    "audit/natural-verify-known-reds.json",
+    "audit/upstream-sources.json"
+  ],
+  "headlessTransids": []
+}

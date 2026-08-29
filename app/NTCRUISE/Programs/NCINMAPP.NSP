@@ -1,0 +1,89 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* :LineIncrement 10
+* <Natural Source Header
+/** <h1>Program NCINMAPP.</h1>
+/** <p>Natural Course - Example Program</p>
+/** <p>Contents:</p>
+/**     <ul type="square">
+/**         <li>INPUT USING MAP Statement</li>
+/**     </ul>
+/** :author Training
+DEFINE DATA
+LOCAL
+/*
+1 #INFO-MESSAGE (A80)
+1 #IN-ERRNR  (N7)
+1 #IN-ERRPRG (A8)
+1 #IN-ERRLINE (N4)
+1 #ERR-TXT (A50)
+/*
+/*
+LOCAL                    /* variables for user exit USR0020N 
+01 PARM-AREA             /* Parameters for CALLNAT
+02 TYPE         (A01)   INIT <'N'> /* 'U' or 'N' 
+  02 APPLICATION  (A08)              /* Must not be blank for type = 'U'
+  02 ERROR-NUMBER (N04)              /* 1 thru 9999
+02 LANG-NUMB    (A01)  INIT <'1'>  /* Language number 
+  02 REDEFINE LANG-NUMB
+    03 LANG-NUMB-I (I1)
+  02 RESPONSE     (N04)   /* Error during execution of USR0020N
+01 RETURN-AREA            /* Contains the message texts
+  02 S-FOUND      (L)   INIT <FALSE>  /*  TRUE = 'Short text found'
+  02 L-FOUND      (L)   INIT <FALSE>  /*  TRUE = 'Long text found'
+  02 SHORT-TEXT   (A65)
+  02 LONG-TEXT    (A78/01:20)
+01 #CR-ID-CONTROL (C)   
+LOCAL
+USING NCDEMAPP
+END-DEFINE
+/*
+FORMAT LS=100
+/*
+IF *DATA > 0
+/*   
+  INPUT #IN-ERRNR #IN-ERRPRG #IN-ERRLINE
+  MOVE  #IN-ERRNR TO PARM-AREA.ERROR-NUMBER
+/* CALLNAT 'USR0020N' PARM-AREA RETURN-AREA
+  MOVE RETURN-AREA.SHORT-TEXT TO  #ERR-TXT
+  COMPRESS 
+    'Error:' #ERR-TXT '(' #IN-ERRNR ','
+    #IN-ERRPRG ','#IN-ERRLINE ')'
+    INTO #INFO-MESSAGE LEAVING NO
+  RELEASE STACK
+/*
+ELSE
+  MOVE 'Please enter Id to show cruise data' TO #INFO-MESSAGE
+END-IF
+/*
+ON ERROR
+  BACKOUT TRANSACTION
+  MOVE *ERROR-NR   TO #IN-ERRNR
+  MOVE *PROGRAM    TO #IN-ERRPRG
+  MOVE *ERROR-LINE TO #IN-ERRLINE
+  STACK TOP DATA #IN-ERRNR #IN-ERRPRG #IN-ERRLINE
+  STACK TOP COMMAND 'NCINMAPP'
+  STOP
+ESCAPE ROUTINE
+END-ERROR
+/*
+SET KEY ALL
+SET KEY PF1=HELP PF2=ON PF3=ON
+SET CONTROL 'MT'
+/*
+INPUT WITH TEXT #INFO-MESSAGE
+  MARK *#CR-ID-FIND  USING MAP  'NCDEMAPM'
+/*
+DECIDE ON FIRST VALUE OF *PF-KEY
+  VALUE 'PF2', 'ENTR'
+    CALLNAT 'NCFINDCR' NC-PARMS
+    IF #CR-ID-FIND = 0
+      REINPUT FULL 'Sorry - No Cruise found for Id' MARK *#CR-ID-FIND
+    END-IF
+    REINPUT FULL 'OK - Cruise shown for Id' MARK *#CR-ID-FIND
+  VALUE 'PF3' STOP
+  NONE  REINPUT 'Sorry - Function key not allocated'
+END-DECIDE
+/*
+END

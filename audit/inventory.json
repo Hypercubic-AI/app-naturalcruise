@@ -1,0 +1,324 @@
+{
+  "provenance": {
+    "kind": "tree-hash",
+    "hash": "e7d0c5403eec4bdb5a2a929c16f1a96f1c4c520d5e7117b3bd9cdcdeaa65bfce"
+  },
+  "upstream_file_hashes": {
+    "CRUISE16-RDCRUISE-LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "CRUISE16/Copycodes/ERRLOG-I.NSC": "174c8371e759d28d83e7d141926358858b5542c3912eb3874acba8b3a2da1078",
+    "CRUISE16/DDMs/NCCONTRA.NSD": "9bf3570aca4ef2f17a41fc993634112cc34f1655ccf43e34518c4ec6d830a953",
+    "CRUISE16/DDMs/NCCRUISE.NSD": "f1c8c14973aee4c2c1dbbabc0729e76d7d160ddac1fa8411d052051d9e16a0ee",
+    "CRUISE16/DDMs/NCCUSTOM.NSD": "85c19b7105e5d33f983d46b91e29079c8a777b5c18a3a825fd23b4752d7d85fc",
+    "CRUISE16/DDMs/NCYACHT.NSD": "564f423e87d1fcf68cf12135e0d0568bdf5918d2c3bdc3c0642ad6f71f913001",
+    "CRUISE16/Local Data Areas/NCDATA-L.NSL": "25ae22acfdd8de178aee658ed9da0b44b3aa1139c1838005abf4f904357320f0",
+    "CRUISE16/Parameter Data Areas/CONTPDA.NSA": "a1647df810ef7b825846c6c2f2bcf7928d1e2e374e5857bf07bf0c847d48c133",
+    "CRUISE16/Parameter Data Areas/MYPDA.NSA": "b155e236f57025c5010df3d50beb96c73d2a47b878c2a71f93ae1be967af62d2",
+    "CRUISE16/Parameter Data Areas/NCCOMM-P.NSA": "8191f0be8fc40e601f2a00b4b64a07f13903824954e2a5411758b7e9de30c52b",
+    "CRUISE16/Parameter Data Areas/NCCONW-P.NSA": "d58d1ee89212db7be031d66e94630ccc34ab13e691259f0c1181d7eb4b3009fd",
+    "CRUISE16/Parameter Data Areas/NCCRUL-P.NSA": "ed9e2ea12270556a2bfc796bdc24b5d7d6be4ebee99756a44f2ed4fed4df4fc8",
+    "CRUISE16/Parameter Data Areas/NCCUGE-P.NSA": "9928f122fa39679be2e2122ce09faafc72fc4b7fba3375afdb381eab6903edc0",
+    "CRUISE16/Parameter Data Areas/NCCUSL-P.NSA": "6a512bab7fd6e15b3627bdfead18ac0497bd5a2fb2b55ee4e77beb02a12cfaff",
+    "CRUISE16/Parameter Data Areas/SYPDA.NSA": "726d8d3d1cf7acb58a85c3888f209d89212d844ae68e4ba4ea8b91921efb5461",
+    "CRUISE16/Parameter Data Areas/YACHTPDA.NSA": "d3882e8febd09b9a45f3c50cc4449c2e1754b8fb70c9d3710af1bdf25f56fd83",
+    "CRUISE16/Subprograms/CA3900-N.NSN": "e94d9a57dd99f29519861ef61c77b535fa9cbfad6862dda6679364bfb3838d3f",
+    "CRUISE16/Subprograms/CAMSG-N.NSN": "9e441cff599b4ac7b8a619fa8568d047a7fff72cb84d88d16732bada48b6b085",
+    "CRUISE16/Subprograms/CONEW-N.NSN": "3fefa77e02856dd1a9bb93be4d786265fc2c8e4f64dcd2902c262f7b5acc1eff",
+    "CRUISE16/Subprograms/CRGET-N.NSN": "9f09e76a6426128a6ba45fb52ac9f5cc938660891c0a6045b2c1b3d1fb9d5508",
+    "CRUISE16/Subprograms/CRLIST-N.NSN": "89d3b2a33548ab536b6941be590ef4537c1edd9ec7c3e1b9e2c2e00d5f06c94e",
+    "CRUISE16/Subprograms/CUGET-N.NSN": "f5b4e02a6dbc80dbaca04070eda2352c7967ed3e7344780fc052c38e3a6a7f91",
+    "CRUISE16/Subprograms/CUMOD-N.NSN": "78d40c54d920abdfa093b00fec472743fbf34840f8794c20dd679c698479355a",
+    "CRUISE16/Subprograms/CUNEW-N.NSN": "a634180e4f21532c36b8aadbc8f8aa11e28e557a646bbab29ddbd0ab97a3c5c3",
+    "NTCRUISE-LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "NTCRUISE/DDMs/NCCRUISE.NSD": "ed7144bd3943c2fc0593967bf697aff78e7db6a18772cc10e3d1b7b5e7e6d473",
+    "NTCRUISE/DDMs/NCYACHT.NSD": "b38f09a23ff1655373ddc73a847b8757967b0cc8e5c699433576a5ca64e296c7",
+    "NTCRUISE/Helproutines/NCDECIDH.NSH": "89e82d4b4fe3edb0983117edde719c176f07f7bfab793c766c055ebc7cf4472a",
+    "NTCRUISE/Helproutines/NCDEMAPH.NSH": "b27a8f63bc789838edd7ee793fa049f87db1607638756b0530d8c0dce3ee0152",
+    "NTCRUISE/Local Data Areas/NCDEMAPL.NSL": "b4ec8926abe3ca8e6547ef61f8a58a41c1d6d1e50027a92f565f30ef1051ac58",
+    "NTCRUISE/Maps/NCDEFORM.NSM": "c2719622572734511abcd04e79b0b7170a868490b3b1f00c61593025c7a1763d",
+    "NTCRUISE/Maps/NCDEMAPM.NSM": "2ff07baccbe5961a87274ba981e59638ed2273a87c8992637885be6fbf75b145",
+    "NTCRUISE/Maps/NCMENUM.NSM": "d93a8ce47ffe6be04acdbd44406c8a5319c01eeb1b206ac40a96795f8252ea6e",
+    "NTCRUISE/Parameter Data Areas/NCDEMAPP.NSA": "244e07f1df0aa27c8b996f006a9f1f5745ad546b1595df414ae29d04f9c29abd",
+    "NTCRUISE/Programs/LOCALVAR.NSP": "0518ee1cfd4f47743753e1165976d6e1db70ba05591d080dea387c034bacea08",
+    "NTCRUISE/Programs/NCATENDP.NSP": "1ad166b4271d05d7f636c83bffd806001a80b2bd0cb57f280c5952c69ec29bed",
+    "NTCRUISE/Programs/NCATTOPP.NSP": "a05630eee2a3b8b05d48330a5327542ace7ab8177d2a23de1cd477454fb4c6c2",
+    "NTCRUISE/Programs/NCDEDISP.NSP": "04dce6bf33422a543f735dbc32b36b395fb4af569c8c54381665e71ab9c51915",
+    "NTCRUISE/Programs/NCINMAPP.NSP": "db34eacb9bda7d49d71b7cade933bf5d31be0ae827331d0d571bd511743645ed",
+    "NTCRUISE/Programs/NCMENUP.NSP": "9836a66ae02b436a7ecd6b79d7e4bac5788a3c6cef8af7a9bd0df0770fa397d7",
+    "NTCRUISE/Programs/NCSYSVP.NSP": "a10441df887be574921be1ea2387584456acd11554b8ebdbfd26518c7d78a160",
+    "NTCRUISE/Programs/NCWRFORP.NSP": "8dddb25f7f9dec7403e1819f2a62c6a04e3283c30a678e24708e6470a9fb9a11",
+    "NTCRUISE/Resources/CruiseList.xml": "31eb8c9b98e605fa4c5d629040d2cc38d2dace859b196d10be91e61b250c7803",
+    "NTCRUISE/Resources/Version.txt": "29664df395de67d92cae1647568dbca6d4063b3bd45cc80f041e1c9a713bc940",
+    "NTCRUISE/Subprograms/NCFINDCR.NSN": "f1e3c159f5da024adedae3721574188a2fed817edb52682c2a2d136589782418",
+    "RDCRUISE/Global Data Areas/RDCCRUIS.NSG": "27a6bf0170e45b8c72b70cc2d6ca07f3a46134c323f55dfc809bcea130698fab",
+    "RDCRUISE/Local Data Areas/RDCRUISL.NSL": "2a034ad57d821783e60566282c8f9773d53282a879370ea406d043978117606c",
+    "RDCRUISE/Programs/DELETECU.NSP": "30308cece21b0b46a583736b9d194647f2d00564c6ee9a0d0d542af858b632f4",
+    "RDCRUISE/Programs/RDCRINIP.NSP": "f3d6a6ed3e8554dc48e2bc5ee9308c0a678c731915683508e70843e033076a14",
+    "RDCRUISE/Programs/RDCRUISP.NSP": "b6f2969a96c1466605ab5a1ad06b9f4bcfb737f180cb63f929fa74543b610444",
+    "RDCRUISE/Subprograms/IMG-LOAD.NSN": "13818b3cc8e06854521d967ada5d09aac3367f45355501751417a92d036e634d",
+    "RDCRUISE/Subprograms/MAKEURL.NSN": "67148f23974217157b54a1c6425ec09015c1656c6ef1b3de132421e33fdd6dae",
+    "RDCRUISE/Subprograms/RDREADWN.NSN": "73ef734bdc11cb508835d577e3b257b924ee08f94ca64fcd172b04ce734ca839"
+  },
+  "rows": [],
+  "files": [
+    {
+      "relpath": "CRUISE16/Copycodes/ERRLOG-I.NSC",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "174c8371e759d28d83e7d141926358858b5542c3912eb3874acba8b3a2da1078"
+    },
+    {
+      "relpath": "CRUISE16/DDMs/NCCONTRA.NSD",
+      "unit": "base",
+      "axis": "ddm",
+      "sha256": "9bf3570aca4ef2f17a41fc993634112cc34f1655ccf43e34518c4ec6d830a953"
+    },
+    {
+      "relpath": "CRUISE16/DDMs/NCCRUISE.NSD",
+      "unit": "base",
+      "axis": "ddm",
+      "sha256": "f1c8c14973aee4c2c1dbbabc0729e76d7d160ddac1fa8411d052051d9e16a0ee"
+    },
+    {
+      "relpath": "CRUISE16/DDMs/NCCUSTOM.NSD",
+      "unit": "base",
+      "axis": "ddm",
+      "sha256": "85c19b7105e5d33f983d46b91e29079c8a777b5c18a3a825fd23b4752d7d85fc"
+    },
+    {
+      "relpath": "CRUISE16/DDMs/NCYACHT.NSD",
+      "unit": "base",
+      "axis": "ddm",
+      "sha256": "564f423e87d1fcf68cf12135e0d0568bdf5918d2c3bdc3c0642ad6f71f913001"
+    },
+    {
+      "relpath": "CRUISE16/Local Data Areas/NCDATA-L.NSL",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "25ae22acfdd8de178aee658ed9da0b44b3aa1139c1838005abf4f904357320f0"
+    },
+    {
+      "relpath": "CRUISE16/Parameter Data Areas/CONTPDA.NSA",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "a1647df810ef7b825846c6c2f2bcf7928d1e2e374e5857bf07bf0c847d48c133"
+    },
+    {
+      "relpath": "CRUISE16/Parameter Data Areas/MYPDA.NSA",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "b155e236f57025c5010df3d50beb96c73d2a47b878c2a71f93ae1be967af62d2"
+    },
+    {
+      "relpath": "CRUISE16/Parameter Data Areas/NCCOMM-P.NSA",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "8191f0be8fc40e601f2a00b4b64a07f13903824954e2a5411758b7e9de30c52b"
+    },
+    {
+      "relpath": "CRUISE16/Parameter Data Areas/NCCONW-P.NSA",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "d58d1ee89212db7be031d66e94630ccc34ab13e691259f0c1181d7eb4b3009fd"
+    },
+    {
+      "relpath": "CRUISE16/Parameter Data Areas/NCCRUL-P.NSA",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "ed9e2ea12270556a2bfc796bdc24b5d7d6be4ebee99756a44f2ed4fed4df4fc8"
+    },
+    {
+      "relpath": "CRUISE16/Parameter Data Areas/NCCUGE-P.NSA",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "9928f122fa39679be2e2122ce09faafc72fc4b7fba3375afdb381eab6903edc0"
+    },
+    {
+      "relpath": "CRUISE16/Parameter Data Areas/NCCUSL-P.NSA",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "6a512bab7fd6e15b3627bdfead18ac0497bd5a2fb2b55ee4e77beb02a12cfaff"
+    },
+    {
+      "relpath": "CRUISE16/Parameter Data Areas/SYPDA.NSA",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "726d8d3d1cf7acb58a85c3888f209d89212d844ae68e4ba4ea8b91921efb5461"
+    },
+    {
+      "relpath": "CRUISE16/Parameter Data Areas/YACHTPDA.NSA",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "d3882e8febd09b9a45f3c50cc4449c2e1754b8fb70c9d3710af1bdf25f56fd83"
+    },
+    {
+      "relpath": "CRUISE16/Subprograms/CA3900-N.NSN",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "e94d9a57dd99f29519861ef61c77b535fa9cbfad6862dda6679364bfb3838d3f"
+    },
+    {
+      "relpath": "CRUISE16/Subprograms/CAMSG-N.NSN",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "9e441cff599b4ac7b8a619fa8568d047a7fff72cb84d88d16732bada48b6b085"
+    },
+    {
+      "relpath": "CRUISE16/Subprograms/CONEW-N.NSN",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "3fefa77e02856dd1a9bb93be4d786265fc2c8e4f64dcd2902c262f7b5acc1eff"
+    },
+    {
+      "relpath": "CRUISE16/Subprograms/CRGET-N.NSN",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "9f09e76a6426128a6ba45fb52ac9f5cc938660891c0a6045b2c1b3d1fb9d5508"
+    },
+    {
+      "relpath": "CRUISE16/Subprograms/CRLIST-N.NSN",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "89d3b2a33548ab536b6941be590ef4537c1edd9ec7c3e1b9e2c2e00d5f06c94e"
+    },
+    {
+      "relpath": "CRUISE16/Subprograms/CUGET-N.NSN",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "f5b4e02a6dbc80dbaca04070eda2352c7967ed3e7344780fc052c38e3a6a7f91"
+    },
+    {
+      "relpath": "CRUISE16/Subprograms/CUMOD-N.NSN",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "78d40c54d920abdfa093b00fec472743fbf34840f8794c20dd679c698479355a"
+    },
+    {
+      "relpath": "CRUISE16/Subprograms/CUNEW-N.NSN",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "a634180e4f21532c36b8aadbc8f8aa11e28e557a646bbab29ddbd0ab97a3c5c3"
+    },
+    {
+      "relpath": "NTCRUISE/DDMs/NCCRUISE.NSD",
+      "unit": "base",
+      "axis": "ddm",
+      "sha256": "ed7144bd3943c2fc0593967bf697aff78e7db6a18772cc10e3d1b7b5e7e6d473"
+    },
+    {
+      "relpath": "NTCRUISE/DDMs/NCYACHT.NSD",
+      "unit": "base",
+      "axis": "ddm",
+      "sha256": "b38f09a23ff1655373ddc73a847b8757967b0cc8e5c699433576a5ca64e296c7"
+    },
+    {
+      "relpath": "NTCRUISE/Helproutines/NCDECIDH.NSH",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "89e82d4b4fe3edb0983117edde719c176f07f7bfab793c766c055ebc7cf4472a"
+    },
+    {
+      "relpath": "NTCRUISE/Helproutines/NCDEMAPH.NSH",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "b27a8f63bc789838edd7ee793fa049f87db1607638756b0530d8c0dce3ee0152"
+    },
+    {
+      "relpath": "NTCRUISE/Local Data Areas/NCDEMAPL.NSL",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "b4ec8926abe3ca8e6547ef61f8a58a41c1d6d1e50027a92f565f30ef1051ac58"
+    },
+    {
+      "relpath": "NTCRUISE/Maps/NCDEFORM.NSM",
+      "unit": "base",
+      "axis": "natmap",
+      "sha256": "c2719622572734511abcd04e79b0b7170a868490b3b1f00c61593025c7a1763d"
+    },
+    {
+      "relpath": "NTCRUISE/Maps/NCDEMAPM.NSM",
+      "unit": "base",
+      "axis": "natmap",
+      "sha256": "2ff07baccbe5961a87274ba981e59638ed2273a87c8992637885be6fbf75b145"
+    },
+    {
+      "relpath": "NTCRUISE/Maps/NCMENUM.NSM",
+      "unit": "base",
+      "axis": "natmap",
+      "sha256": "d93a8ce47ffe6be04acdbd44406c8a5319c01eeb1b206ac40a96795f8252ea6e"
+    },
+    {
+      "relpath": "NTCRUISE/Parameter Data Areas/NCDEMAPP.NSA",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "244e07f1df0aa27c8b996f006a9f1f5745ad546b1595df414ae29d04f9c29abd"
+    },
+    {
+      "relpath": "NTCRUISE/Programs/LOCALVAR.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "0518ee1cfd4f47743753e1165976d6e1db70ba05591d080dea387c034bacea08"
+    },
+    {
+      "relpath": "NTCRUISE/Programs/NCATENDP.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "1ad166b4271d05d7f636c83bffd806001a80b2bd0cb57f280c5952c69ec29bed"
+    },
+    {
+      "relpath": "NTCRUISE/Programs/NCATTOPP.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "a05630eee2a3b8b05d48330a5327542ace7ab8177d2a23de1cd477454fb4c6c2"
+    },
+    {
+      "relpath": "NTCRUISE/Programs/NCDEDISP.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "04dce6bf33422a543f735dbc32b36b395fb4af569c8c54381665e71ab9c51915"
+    },
+    {
+      "relpath": "NTCRUISE/Programs/NCINMAPP.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "db34eacb9bda7d49d71b7cade933bf5d31be0ae827331d0d571bd511743645ed"
+    },
+    {
+      "relpath": "NTCRUISE/Programs/NCMENUP.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "9836a66ae02b436a7ecd6b79d7e4bac5788a3c6cef8af7a9bd0df0770fa397d7"
+    },
+    {
+      "relpath": "NTCRUISE/Programs/NCSYSVP.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "a10441df887be574921be1ea2387584456acd11554b8ebdbfd26518c7d78a160"
+    },
+    {
+      "relpath": "NTCRUISE/Programs/NCWRFORP.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "8dddb25f7f9dec7403e1819f2a62c6a04e3283c30a678e24708e6470a9fb9a11"
+    },
+    {
+      "relpath": "NTCRUISE/Resources/CruiseList.xml",
+      "unit": "base",
+      "axis": "data",
+      "sha256": "31eb8c9b98e605fa4c5d629040d2cc38d2dace859b196d10be91e61b250c7803"
+    },
+    {
+      "relpath": "NTCRUISE/Resources/Version.txt",
+      "unit": "base",
+      "axis": "data",
+      "sha256": "29664df395de67d92cae1647568dbca6d4063b3bd45cc80f041e1c9a713bc940"
+    },
+    {
+      "relpath": "NTCRUISE/Subprograms/NCFINDCR.NSN",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "f1e3c159f5da024adedae3721574188a2fed817edb52682c2a2d136589782418"
+    }
+  ],
+  "parse_findings": [],
+  "duplicate_stems": []
+}

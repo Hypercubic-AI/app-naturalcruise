@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "assembly": "app/ is the byte-preserving union described by each entry's paths",
+  "sources": [
+    {
+      "repository": "https://github.com/SoftwareAG/adabas-natural-devops-sample-application",
+      "commit": "0e84dcc7ac68abd5ed2ace98c0dde99b6385862b",
+      "paths": ["NaturalCruise"]
+    },
+    {
+      "repository": "https://github.com/SoftwareAG/adabas-natural-for-ajax-devops-sample-application",
+      "commit": "7c282c04b636cc912f2cba05ac343cfc38611739",
+      "paths": ["SunnyIslands/CRUISE16", "SunnyIslands/RDCRUISE"]
+    }
+  ]
+}

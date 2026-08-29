@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "key": {"dbid": 12, "fnr": 42},
+      "name": "NCYACHT",
+      "descriptors": {"YACHT-ID": "N", "YACHT-NAME": "A"},
+      "records": [
+        {"isn": 1, "fields": {"YACHT-ID": {"kind": "N", "text": "1"}, "YACHT-NAME": {"kind": "A", "text": "ALBATROSS"}, "YACHT-TYPE": {"kind": "A", "text": "SAILING"}, "LENGTH": {"kind": "P", "text": "14.5"}, "PICTURE": {"kind": "LOB", "bytes": "iVBORw0KGgo="}}},
+        {"isn": 2, "fields": {"YACHT-ID": {"kind": "N", "text": "2"}, "YACHT-NAME": {"kind": "A", "text": "ZEPHYR"}, "YACHT-TYPE": {"kind": "A", "text": "MOTOR"}, "LENGTH": {"kind": "P", "text": "18.0"}, "PICTURE": {"kind": "LOB", "bytes": "iVBORw0KGgo="}}}
+      ]
+    },
+    {
+      "key": {"dbid": 12, "fnr": 41},
+      "name": "NCCRUISE",
+      "descriptors": {"CRUISE-ID": "N", "START-HARBOR": "A", "ID-YACHT": "N"},
+      "records": [
+        {"isn": 1, "fields": {"CRUISE-ID": {"kind": "N", "text": "13"}, "CRUISE-STATUS": {"kind": "A", "text": "A"}, "START-HARBOR": {"kind": "A", "text": "HAMBURG"}, "DESTINATION-HARBOR": {"kind": "A", "text": "OSLO"}, "ID-YACHT": {"kind": "N", "text": "1"}, "START-DATE": {"kind": "N", "text": "20260901"}, "END-DATE": {"kind": "N", "text": "20260908"}, "PRICE-1W": {"kind": "P", "text": "1200.000"}}},
+        {"isn": 2, "fields": {"CRUISE-ID": {"kind": "N", "text": "196"}, "CRUISE-STATUS": {"kind": "A", "text": "A"}, "START-HARBOR": {"kind": "A", "text": "ATHENS"}, "DESTINATION-HARBOR": {"kind": "A", "text": "NAXOS"}, "ID-YACHT": {"kind": "N", "text": "2"}, "START-DATE": {"kind": "N", "text": "20260910"}, "END-DATE": {"kind": "N", "text": "20260917"}}},
+        {"isn": 3, "fields": {"CRUISE-ID": {"kind": "N", "text": "671"}, "CRUISE-STATUS": {"kind": "A", "text": "A"}, "START-HARBOR": {"kind": "A", "text": "MIAMI"}, "DESTINATION-HARBOR": {"kind": "A", "text": "NASSAU"}, "ID-YACHT": {"kind": "N", "text": "1"}, "START-DATE": {"kind": "N", "text": "20260920"}, "END-DATE": {"kind": "N", "text": "20260927"}}},
+        {"isn": 4, "fields": {"CRUISE-ID": {"kind": "N", "text": "675"}, "CRUISE-STATUS": {"kind": "A", "text": "A"}, "START-HARBOR": {"kind": "A", "text": "MIAMI"}, "DESTINATION-HARBOR": {"kind": "A", "text": "KEY WEST"}, "ID-YACHT": {"kind": "N", "text": "2"}, "START-DATE": {"kind": "N", "text": "20261001"}, "END-DATE": {"kind": "N", "text": "20261008"}}},
+        {"isn": 5, "fields": {"CRUISE-ID": {"kind": "N", "text": "676"}, "CRUISE-STATUS": {"kind": "A", "text": "A"}, "START-HARBOR": {"kind": "A", "text": "GENOA"}, "DESTINATION-HARBOR": {"kind": "A", "text": "NAPLES"}, "ID-YACHT": {"kind": "N", "text": "1"}, "START-DATE": {"kind": "N", "text": "20261010"}, "END-DATE": {"kind": "N", "text": "20261017"}}},
+        {"isn": 6, "fields": {"CRUISE-ID": {"kind": "N", "text": "696"}, "CRUISE-STATUS": {"kind": "A", "text": "A"}, "START-HARBOR": {"kind": "A", "text": "GENOA"}, "DESTINATION-HARBOR": {"kind": "A", "text": "PALERMO"}, "ID-YACHT": {"kind": "N", "text": "2"}, "START-DATE": {"kind": "N", "text": "20261020"}, "END-DATE": {"kind": "N", "text": "20261027"}}},
+        {"isn": 7, "fields": {"CRUISE-ID": {"kind": "N", "text": "1484"}, "CRUISE-STATUS": {"kind": "A", "text": "A"}, "START-HARBOR": {"kind": "A", "text": "SEATTLE"}, "DESTINATION-HARBOR": {"kind": "A", "text": "JUNEAU"}, "ID-YACHT": {"kind": "N", "text": "1"}, "START-DATE": {"kind": "N", "text": "20261101"}, "END-DATE": {"kind": "N", "text": "20261108"}}}
+      ]
+    },
+    {
+      "key": {"dbid": 12, "fnr": 44},
+      "name": "NCCUSTOMER",
+      "descriptors": {"PERSON-ID": "N", "SURNAME": "A"},
+      "records": [
+        {"isn": 1, "fields": {"PERSON-ID": {"kind": "N", "text": "1001"}, "BIRTH-DATE": {"kind": "N", "text": "19800101"}, "SEX": {"kind": "A", "text": "F"}, "FIRST-NAME-1": {"kind": "U", "text": "Ada"}, "SURNAME": {"kind": "A", "text": "LOVELACE"}, "COUNTRY": {"kind": "A", "text": "GBR"}, "CITY": {"kind": "A", "text": "LONDON"}, "TIMESTAMP": {"kind": "B", "bytes": "AAAAAQ=="}, "EMAIL": {"kind": "MU", "occurrences": [{"kind": "A", "text": "ada@example.test"}]}}}
+      ]
+    },
+    {
+      "key": {"dbid": 12, "fnr": 43},
+      "name": "NCCONTRACT",
+      "descriptors": {"CONTRACT-ID": "P", "ID-CUSTOMER": "N", "ID-CRUISE": "N"},
+      "records": [
+        {"isn": 1, "fields": {"CONTRACT-ID": {"kind": "P", "text": "5001"}, "PRICE": {"kind": "P", "text": "1200.000"}, "DID-CONDITIONS": {"kind": "A", "text": "Y"}, "DATE-RESERVATION": {"kind": "N", "text": "20260825"}, "DATE-BOOKING": {"kind": "N", "text": "20260825"}, "ID-CUSTOMER": {"kind": "N", "text": "1001"}, "ID-CRUISE": {"kind": "N", "text": "13"}}}
+      ]
+    }
+  ]
+}

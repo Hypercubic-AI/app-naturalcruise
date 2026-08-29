@@ -1,0 +1,197 @@
+# Scaffolded by iso create (part-1 split spec §12). Requires:
+#   - a runner with the app-lifecycle toolchains (iso doctor)
+#   - access to the isomorphic engine repo (deploy token / PAT as ISO_ENGINE_REPO_TOKEN)
+name: app-ci
+on: [push, pull_request]
+
+env:
+  # The engine commit every battery lane runs against, and the key for every
+  # cache below.
+  #
+  # This exists because isoconfig.toml is NOT a pin. Its `[engine] version =
+  # "dev"` is a STORE KEY (isostore.EnginePath joins it into
+  # ~/.isomorphic/engines/<version>), and it does not change when the engine
+  # advances. The scaffold cached on hashFiles('isoconfig.toml'), so that key
+  # never invalidated: it would have pinned a permanently stale engine while
+  # appearing to validate against a current one.
+  #
+  # Bumping this SHA is DELIBERATE. The app's goldens and conformance corpus
+  # are blessed against this exact engine, so a bump means re-verifying them —
+  # it is a reviewed change, not a routine refresh.
+  ENGINE_SHA: 0c287452ebef51cab77966b2bb09b41e42c3ea7f
+  # Exact, not a floor: the engine's generated Go is Dafny-version-coupled and
+  # `iso doctor` demands 4.11.x.
+  DAFNY_VERSION: '4.11.0'
+
+jobs:
+  battery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Both Natural allowlists are monotone. On pull requests expose the
+      # base-revision files to the engine/app harnesses; they reject additions,
+      # drifted failure signatures, and listed failures that now pass.
+      - name: Prepare Natural ratchet baselines
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          git show "$BASE_SHA:audit/natural-verify-known-reds.json" > "$RUNNER_TEMP/natural-verify-base.json"
+          if git cat-file -e "$BASE_SHA:goldens/natural/expected-reds.json" 2>/dev/null; then
+            git show "$BASE_SHA:goldens/natural/expected-reds.json" > "$RUNNER_TEMP/natural-golden-base.json"
+          else
+            printf '{"failures":[]}\n' > "$RUNNER_TEMP/natural-golden-base.json"
+          fi
+          echo "ISO_NATURAL_VERIFY_BASE_ALLOWLIST=$RUNNER_TEMP/natural-verify-base.json" >> "$GITHUB_ENV"
+          echo "ISO_NATURAL_GOLDEN_BASE_EXPECTED_REDS=$RUNNER_TEMP/natural-golden-base.json" >> "$GITHUB_ENV"
+
+      # The engine is checked out into a subdirectory of the app workspace and
+      # used IN PLACE, via ISO_ENGINE_DIR — no `iso engine install`, so no copy
+      # into the store and no frontend build.
+      #
+      # ISO_ENGINE_DIR is the real mechanism, verified against the CLI at this
+      # SHA: isostore.EnginePath (server/internal/isostore/store.go) returns
+      # $ISO_ENGINE_DIR verbatim when set, ahead of the store path, and
+      # resolveEngine (server/cmd/iso/engine.go) skips the manifest.json seal
+      # check for an override dir precisely because an engine REPO carries no
+      # manifest. Every command announces the override on stderr.
+      - name: Checkout isomorphic engine (pinned to ENGINE_SHA)
+        uses: actions/checkout@v4
+        with:
+          repository: Hypercubic-AI/isomorphic
+          ref: ${{ env.ENGINE_SHA }}
+          path: engine
+          token: ${{ secrets.ISO_ENGINE_REPO_TOKEN }}
+
+      # Toolchains: ONLY what the four lanes below actually invoke.
+      #   go     — the pipeline's build-module stage, and every engine suite
+      #            (`go test -tags apptest`) that iso test / iso conform run.
+      #   dafny  — `dafny translate go` in the build pipeline, `dafny verify` /
+      #            `dafny resolve` in the core lane, and `make spine-gen`.
+      #   rust   — the compiler binaries the pipeline shells out to (below).
+      # Deliberately NOT installed: node (only `iso run` starts the frontend;
+      # no build/test/conform lane touches it) and hurl (the scenarios lane
+      # only — server/facade/hurl's tests t.Skip when hurl is off PATH).
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: engine/server/go.mod
+          cache-dependency-path: engine/server/go.sum
+
+      - name: Set up Rust (the engine's rust-toolchain.toml drives the channel)
+        working-directory: engine
+        run: rustup show active-toolchain || rustup toolchain install
+
+      - name: Cache Dafny
+        id: dafny-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/dafny
+          key: dafny-${{ env.DAFNY_VERSION }}-x64-ubuntu-22.04
+
+      - name: Install Dafny (pinned release asset; mirrors the engine's setup-toolchain)
+        if: steps.dafny-cache.outputs.cache-hit != 'true'
+        run: |
+          curl -fsSL -o /tmp/dafny.zip \
+            "https://github.com/dafny-lang/dafny/releases/download/v${DAFNY_VERSION}/dafny-${DAFNY_VERSION}-x64-ubuntu-22.04.zip"
+          mkdir -p "$HOME/dafny"
+          unzip -q /tmp/dafny.zip -d "$HOME/dafny"
+          # The release zip ships NO DafnyRuntimeGo (only the .dll/.jar
+          # runtimes). Recreate the Homebrew-shaped <bin>/../libexec layout
+          # from the pinned source tarball, so a Dafny that looks for its Go
+          # runtime finds the same file set local dev has.
+          curl -fsSL -o /tmp/dafny-src.tar.gz \
+            "https://github.com/dafny-lang/dafny/archive/refs/tags/v${DAFNY_VERSION}.tar.gz"
+          tar -xzf /tmp/dafny-src.tar.gz -C /tmp \
+            "dafny-${DAFNY_VERSION}/Source/DafnyRuntime/DafnyRuntimeGo"
+          mkdir -p "$HOME/dafny/libexec"
+          cp -R "/tmp/dafny-${DAFNY_VERSION}/Source/DafnyRuntime/DafnyRuntimeGo" \
+            "$HOME/dafny/libexec/DafnyRuntimeGo"
+          # Homebrew's layout omits dafny_test.go; strip it for gen parity.
+          rm -f "$HOME/dafny/libexec/DafnyRuntimeGo/dafny/"*_test.go
+
+      - name: Add Dafny and the Go tool bin to PATH
+        run: |
+          echo "$HOME/dafny/dafny" >> "$GITHUB_PATH"
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Install goimports (`dafny translate go` shells out to it)
+        run: go install golang.org/x/tools/cmd/goimports@latest
+
+      # Keyed on the exact engine commit, so it invalidates the moment
+      # ENGINE_SHA is bumped — the property the isoconfig-hash key lacked.
+      # The engine CHECKOUT itself is not cached and not skippable: the lanes
+      # read compiler/dafny/*.dfy, server/, and server/third_party/
+      # DafnyRuntimeGo straight out of ISO_ENGINE_DIR. What is worth caching is
+      # everything DERIVED from that tree.
+      #
+      # DAFNY_VERSION is in the key alongside ENGINE_SHA because these products
+      # are Dafny-version-coupled, not determined by the engine commit alone:
+      # gen/spine IS `dafny translate go` output, and the iso binary links it.
+      # A Dafny bump without an engine bump must MISS this cache.
+      - name: Cache engine build products
+        id: engine-cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.isomorphic
+            engine/target
+            engine/server/gen/spine
+          key: iso-${{ env.ENGINE_SHA }}-dafny${{ env.DAFNY_VERSION }}-${{ runner.os }}
+
+      - name: Build engine products (cache miss only)
+        if: steps.engine-cache.outputs.cache-hit != 'true'
+        working-directory: engine
+        run: |
+          # install-iso.sh: runs `make -C server spine-gen` if gen/spine is
+          # absent (the CLI's import graph reaches the Dafny spine packages),
+          # then installs $HOME/.isomorphic/bin/iso.
+          bash scripts/install-iso.sh
+          # install-iso.sh builds the Go CLI ONLY. The pipeline shells out to
+          # two cargo binaries that live in the engine dir, and without them
+          # `iso build` dies at once with "engine <dir> has no built compiler":
+          #   target/release/isomorphic         — pipeline.Engine.Compiler()
+          #   target/release/fidelity_extractor — iso test's claims-drift gate
+          # One package, two bin targets (compiler/Cargo.toml), one build.
+          cargo build --release -p isomorphic
+
+      - name: Put iso on PATH
+        run: echo "$HOME/.isomorphic/bin" >> "$GITHUB_PATH"
+
+      - name: Engine sanity (fail here, not three lanes in)
+        run: |
+          iso version
+          dafny --version
+          test -x engine/target/release/isomorphic
+          test -x engine/target/release/fidelity_extractor
+
+      # ISO_ENGINE_DIR is set explicitly on EVERY invocation rather than once
+      # for the job: the lanes must run against the pinned checkout, and the
+      # alternative — letting isoconfig's version = "dev" resolve to a managed
+      # ~/.isomorphic/engines/dev entry — is exactly the silent-staleness path
+      # this job exists to close.
+      #
+      # These are blocking gates. A failing lane stops the job and therefore
+      # cannot be mistaken for a green Natural application contract.
+      - name: Adabas race suite
+        working-directory: engine/server
+        run: go test -race ./internal/adabas/...
+      - name: iso build
+        env:
+          ISO_ENGINE_DIR: ${{ github.workspace }}/engine
+        run: iso build
+      - name: iso test (registry freshness, engine suites, claims drift)
+        env:
+          ISO_ENGINE_DIR: ${{ github.workspace }}/engine
+        run: iso test
+      - name: iso conform --lane core (tier-1/2 + verify-smoke + resolve-all)
+        env:
+          ISO_ENGINE_DIR: ${{ github.workspace }}/engine
+        run: iso conform --lane core
+      - name: iso conform --lane walk (nav walker + menu-option prober)
+        env:
+          ISO_ENGINE_DIR: ${{ github.workspace }}/engine
+        run: iso conform --lane walk

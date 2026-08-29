@@ -1,0 +1,53 @@
+# isoconfig.toml — the ONE hand-edited config of this app folder.
+# Scaffolded by iso create; REFINE the [upstream] units/axes to match the
+# vendored tree under app/ (part-1 split spec §5-§6), then run iso sync.
+schema = 1
+
+[app]
+name = "app-naturalcruise"
+display-name = "Natural Cruise"
+frontend = "natural"
+
+[engine]
+version = "dev"
+
+[capabilities]
+terminal = true
+datasets = false
+jobs = false
+db2 = false
+ims = false
+queues = false
+adabas = true
+
+[upstream]
+# The app/ tree is an immutable assembly of the two Software AG repositories
+# pinned in audit/upstream-sources.json.  iso sync hashes app/ directly; this
+# stable pointer replaces the one-machine /private/tmp assembly path.
+source = "audit/upstream-sources.json"
+kind = "dump"
+ignored = ["RDCRUISE/**", "NTCRUISE-LICENSE", "CRUISE16-RDCRUISE-LICENSE"]
+
+[upstream.axes]
+# Dump classification proposal — REVIEW ONLY; inactive until copied into [upstream.axes].
+# Verify every path; anything not covered by ratified axes remains residue.
+# copy = "CRUISE16/DDMs/NCCONTRA.NSD,CRUISE16/DDMs/NCCRUISE.NSD,CRUISE16/DDMs/NCCUSTOM.NSD,CRUISE16/DDMs/NCYACHT.NSD,CRUISE16/Local Data Areas/NCDATA-L.NSL,CRUISE16/Parameter Data Areas/CONTPDA.NSA,CRUISE16/Parameter Data Areas/MYPDA.NSA,CRUISE16/Parameter Data Areas/NCCOMM-P.NSA,CRUISE16/Parameter Data Areas/NCCONW-P.NSA,CRUISE16/Parameter Data Areas/NCCRUL-P.NSA,CRUISE16/Parameter Data Areas/NCCUGE-P.NSA,CRUISE16/Parameter Data Areas/NCCUSL-P.NSA,CRUISE16/Parameter Data Areas/SYPDA.NSA,CRUISE16/Parameter Data Areas/YACHTPDA.NSA,CRUISE16/Subprograms/CAMSG-N.NSN,CRUISE16/Subprograms/CONEW-N.NSN,CRUISE16/Subprograms/CRGET-N.NSN,CRUISE16/Subprograms/CRLIST-N.NSN,CRUISE16/Subprograms/CUGET-N.NSN,CRUISE16/Subprograms/CUMOD-N.NSN,CRUISE16/Subprograms/CUNEW-N.NSN,CRUISE16-RDCRUISE-LICENSE,NTCRUISE/DDMs/NCCRUISE.NSD,NTCRUISE/DDMs/NCYACHT.NSD,NTCRUISE/Helproutines/NCDECIDH.NSH,NTCRUISE/Local Data Areas/NCDEMAPL.NSL,NTCRUISE/Maps/NCDEFORM.NSM,NTCRUISE/Maps/NCDEMAPM.NSM,NTCRUISE/Maps/NCMENUM.NSM,NTCRUISE/Parameter Data Areas/NCDEMAPP.NSA,NTCRUISE/Programs/NCATENDP.NSP,NTCRUISE/Programs/NCATTOPP.NSP,NTCRUISE/Programs/NCINMAPP.NSP,NTCRUISE/Programs/NCMENUP.NSP,NTCRUISE/Programs/NCSYSVP.NSP,NTCRUISE/Programs/NCWRFORP.NSP,NTCRUISE-LICENSE,RDCRUISE/Global Data Areas/RDCCRUIS.NSG,RDCRUISE/Local Data Areas/RDCRUISL.NSL,RDCRUISE/Programs/DELETECU.NSP,RDCRUISE/Programs/RDCRINIP.NSP,RDCRUISE/Programs/RDCRUISP.NSP,RDCRUISE/Subprograms/IMG-LOAD.NSN,RDCRUISE/Subprograms/MAKEURL.NSN,RDCRUISE/Subprograms/RDREADWN.NSN"
+# data = "CRUISE16/Copycodes/ERRLOG-I.NSC,CRUISE16/Subprograms/CA3900-N.NSN,NTCRUISE/Helproutines/NCDEMAPH.NSH,NTCRUISE/Programs/NCDEDISP.NSP,NTCRUISE/Resources/CruiseList.xml,NTCRUISE/Resources/Version.txt,NTCRUISE/Subprograms/NCFINDCR.NSN"
+# End dump classification proposal.
+natural = "NTCRUISE/**/*.NSP,NTCRUISE/**/*.NSN,NTCRUISE/**/*.NSL,NTCRUISE/**/*.NSA,NTCRUISE/**/*.NSG,NTCRUISE/**/*.NSC,NTCRUISE/**/*.NSH,CRUISE16/**/*.NSP,CRUISE16/**/*.NSN,CRUISE16/**/*.NSL,CRUISE16/**/*.NSA,CRUISE16/**/*.NSG,CRUISE16/**/*.NSC,CRUISE16/**/*.NSH"
+ddm = "NTCRUISE/**/*.NSD,CRUISE16/**/*.NSD"
+natmap = "NTCRUISE/**/*.NSM"
+data = "NTCRUISE/Resources/**"
+
+[[upstream.units]]
+name = "base"
+path = "."
+installed = true
+
+[build]
+# SunnyIslands' Natural-for-Ajax layer has an unresolved PROCESS PAGE target
+# (RDCRUISA.NS8), so v1 vendors it for provenance but does not compile it.
+exclude = ["DELETECU", "RDCRINIP", "RDCRUISP", "IMG-LOAD", "MAKEURL", "RDREADWN"]
+
+[conformance]
+verify-smoke-program = "LOCALVAR"
