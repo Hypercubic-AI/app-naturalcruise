@@ -18,7 +18,8 @@ env:
   # Bumping this SHA is DELIBERATE. The app's goldens and conformance corpus
   # are blessed against this exact engine, so a bump means re-verifying them —
   # it is a reviewed change, not a routine refresh.
-  ENGINE_SHA: 0c287452ebef51cab77966b2bb09b41e42c3ea7f
+  ENGINE_SHA: f058cb9a615c67a4c056f527dd249ac7cb4611f8
+  FACTOR_SHA: 8a9b7dd70cf792d8f1e1bfab6c7dd9a43569a326
   # Exact, not a floor: the engine's generated Go is Dafny-version-coupled and
   # `iso doctor` demands 4.11.x.
   DAFNY_VERSION: '4.11.0'
@@ -65,6 +66,14 @@ jobs:
           repository: Hypercubic-AI/isomorphic
           ref: ${{ env.ENGINE_SHA }}
           path: engine
+          token: ${{ secrets.ISO_ENGINE_REPO_TOKEN }}
+
+      - name: Checkout factor consumer (pinned, unmodified)
+        uses: actions/checkout@v4
+        with:
+          repository: Hypercubic-AI/factor
+          ref: ${{ env.FACTOR_SHA }}
+          path: factor
           token: ${{ secrets.ISO_ENGINE_REPO_TOKEN }}
 
       # Toolchains: ONLY what the four lanes below actually invoke.
@@ -183,6 +192,18 @@ jobs:
         env:
           ISO_ENGINE_DIR: ${{ github.workspace }}/engine
         run: iso build
+      - name: factor decision_coverage consumer smoke
+        env:
+          ISO_ENGINE_DIR: ${{ github.workspace }}/engine
+        run: |
+          GOWORK="$RUNNER_TEMP/factor-smoke.work" go work init factor/orchestrator engine/server
+          GOWORK="$RUNNER_TEMP/factor-smoke.work" go build -o "$RUNNER_TEMP/factor-mcp" ./factor/orchestrator/cmd/mcp
+          go run scripts/factor-decision-coverage-smoke.go \
+            -binary "$RUNNER_TEMP/factor-mcp" \
+            -factor-sha "$FACTOR_SHA" \
+            -program NCINMAPP \
+            -manifest .isomorphic/gen/dfy/Ncinmapp.decisions.json \
+            -dead-branches .isomorphic/gen/dfy/Ncinmapp.dead-branches.json
       - name: iso test (registry freshness, engine suites, claims drift)
         env:
           ISO_ENGINE_DIR: ${{ github.workspace }}/engine

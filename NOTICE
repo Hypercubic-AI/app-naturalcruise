@@ -1,0 +1,18 @@
+Natural Cruise application bundle
+
+This bundle includes source and sample data from Software AG repositories:
+
+- adabas-natural-devops-sample-application at commit
+  0e84dcc7ac68abd5ed2ace98c0dde99b6385862b
+- adabas-natural-for-ajax-devops-sample-application at commit
+  7c282c04b636cc912f2cba05ac343cfc38611739
+- adabas-natural-education-package at commit
+  fc744d3a3b53197e60d02f8609f469b2d313f119
+
+The vendored works are distributed under the Apache License, Version 2.0.
+Their full license texts are retained as app/NTCRUISE-LICENSE,
+app/CRUISE16-RDCRUISE-LICENSE, and app/EDUCATION-LICENSE. Exact repository,
+commit, and path provenance is recorded in audit/upstream-sources.json.
+
+Natural and Adabas are trademarks of Software AG. This attribution does not
+imply endorsement by Software AG.

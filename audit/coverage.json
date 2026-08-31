@@ -1,328 +1,707 @@
 {
-  "rows": {
-    "program:ARRA2PGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:ARRAYPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:CA3900N": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:CAMSGN": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:COND": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:CONDPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:CONEWN": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:CRGETN": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:CRLISTN": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:CUGETN": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:CUMODN": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:CUNEWN": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:DELETPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:HISTOPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:LOCALVAR": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:LOOP2PGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:LOOPPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:NCATENDP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:NCATTOPP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:NCDEDISP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:NCFINDCR": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:NCINMAPP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:NCMENUP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:NCSYSVP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:NCWRFORP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:RETOPPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:RETRIPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:RETRIPGM1": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:STOREPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:UPDATPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:WORKFPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:WORKFPGM1": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "program:WORKOPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:ARRA2PGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:ARRAYPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:COND": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:CONDPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:DELETPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:HISTOPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:LOCALVAR": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:LOOP2PGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:LOOPPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:NCATENDP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:NCATTOPP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:NCDEDISP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:NCINMAPP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:NCMENUP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:NCSYSVP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:NCWRFORP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:RETOPPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:RETRIPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:RETRIPGM1": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:STOREPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:UPDATPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:WORKFPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:WORKFPGM1": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "terminal-program:WORKOPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "transaction:HISTOPGM": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "transaction:NCINMAPP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "transaction:NCMENUP": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
-      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
-    },
-    "natural-library:RDCRUISE": {
-      "state": "planned",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.2",
-      "reason": "Deferred from Natural+Adabas v1: the upstream Natural-for-Ajax adapter references RDCRUISA.NS8, a PROCESS PAGE target absent from the Apache-2.0 source repository. The sources remain vendored and provenance-pinned, but are excluded from the installed compile set until that dependency can be supplied."
-    }
+  "app": "app-naturalcruise",
+  "provenance": {
+    "kind": "tree-hash",
+    "hash": "3a6c78207d3a5c00a993fee76e8cc7911ff80e0f525d1afbf4891a63a34fdd3d"
   },
-  "files": {
-    "authored/natural/CRUISE-HEADLESS-DRIVER.NSP": {
-      "state": "isomorphic-authored",
-      "ref": "isomorphic natural-adabas-round3 addendum A4.1",
-      "reason": "Selectable headless adapter over the six unchanged Software AG service subprograms; production source remains byte-pure under app/."
+  "rows": [
+    {
+      "kind": "program",
+      "id": "ARRA2PGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "ARRAYPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "CA3900N",
+      "class": "business-subroutine",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "CAMSGN",
+      "class": "business-subroutine",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "COND",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "CONDPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "CONEWN",
+      "class": "business-subroutine",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "CRGETN",
+      "class": "business-subroutine",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "CRLISTN",
+      "class": "business-subroutine",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "CUGETN",
+      "class": "business-subroutine",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "CUMODN",
+      "class": "business-subroutine",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "CUNEWN",
+      "class": "business-subroutine",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "DELETPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "HELLOWORLD",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "implemented+driven"
+    },
+    {
+      "kind": "program",
+      "id": "HISTOPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "LOCALVAR",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "LOOP2PGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "LOOPPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "NCATENDP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "NCATTOPP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "NCDEDISP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "NCFINDCR",
+      "class": "business-subroutine",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "NCINMAPP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "NCMENUP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "NCSYSVP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "NCWRFORP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "RETOPPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "RETRIPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": false,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "RETRIPGM1",
+      "class": "business-online",
+      "unit": "base",
+      "installed": false,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "STOREPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "UPDATPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "WORKFPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "WORKFPGM1",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "program",
+      "id": "WORKOPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "ARRA2PGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "ARRAYPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "COND",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "CONDPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "DELETPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "HELLOWORLD",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "implemented+driven"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "HISTOPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "LOCALVAR",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "LOOP2PGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "LOOPPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCATENDP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCATTOPP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCDEDISP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCINMAPP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCMENUP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCSYSVP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCWRFORP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "RETOPPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "RETRIPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": false,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "RETRIPGM1",
+      "class": "business-online",
+      "unit": "base",
+      "installed": false,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "STOREPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "UPDATPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "WORKFPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "WORKFPGM1",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "terminal-program",
+      "id": "WORKOPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "transaction",
+      "id": "HISTOPGM",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "transaction",
+      "id": "NCINMAPP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
+    },
+    {
+      "kind": "transaction",
+      "id": "NCMENUP",
+      "class": "business-online",
+      "unit": "base",
+      "installed": true,
+      "state": "planned",
+      "ref": "isomorphic natural-adabas-round3 addendum A4.1/A4.4",
+      "reason": "Vendored Natural supply is compiled or provenance-tracked; direct headless or interactive journey evidence is scheduled by the round-3 addendum."
     }
-  },
-  "vendorSupplied": {},
-  "seedProvenance": {},
-  "infrastructure": [
-    "data/adabas.json",
-    "audit/natural-verify-known-reds.json",
-    "audit/upstream-sources.json"
   ],
-  "headlessTransids": [
-    "HISTOPGM",
-    "NCINMAPP",
-    "NCMENUP"
-  ]
+  "fileCounts": {
+    "app": {
+      "Identical": 68,
+      "Divergent": 0,
+      "Auxiliary": 0,
+      "Vendor": 0,
+      "Declared": 0,
+      "NoCounterpart": 0
+    },
+    "authored": {
+      "Identical": 0,
+      "Divergent": 0,
+      "Auxiliary": 0,
+      "Vendor": 0,
+      "Declared": 1,
+      "NoCounterpart": 0
+    }
+  },
+  "roadmap": {
+    "isomorphic": [
+      "program:ARRA2PGM",
+      "program:ARRAYPGM",
+      "program:CA3900N",
+      "program:CAMSGN",
+      "program:COND",
+      "program:CONDPGM",
+      "program:CONEWN",
+      "program:CRGETN",
+      "program:CRLISTN",
+      "program:CUGETN",
+      "program:CUMODN",
+      "program:CUNEWN",
+      "program:DELETPGM",
+      "program:HISTOPGM",
+      "program:LOCALVAR",
+      "program:LOOP2PGM",
+      "program:LOOPPGM",
+      "program:NCATENDP",
+      "program:NCATTOPP",
+      "program:NCDEDISP",
+      "program:NCFINDCR",
+      "program:NCINMAPP",
+      "program:NCMENUP",
+      "program:NCSYSVP",
+      "program:NCWRFORP",
+      "program:RETOPPGM",
+      "program:RETRIPGM",
+      "program:RETRIPGM1",
+      "program:STOREPGM",
+      "program:UPDATPGM",
+      "program:WORKFPGM",
+      "program:WORKFPGM1",
+      "program:WORKOPGM",
+      "terminal-program:ARRA2PGM",
+      "terminal-program:ARRAYPGM",
+      "terminal-program:COND",
+      "terminal-program:CONDPGM",
+      "terminal-program:DELETPGM",
+      "terminal-program:HISTOPGM",
+      "terminal-program:LOCALVAR",
+      "terminal-program:LOOP2PGM",
+      "terminal-program:LOOPPGM",
+      "terminal-program:NCATENDP",
+      "terminal-program:NCATTOPP",
+      "terminal-program:NCDEDISP",
+      "terminal-program:NCINMAPP",
+      "terminal-program:NCMENUP",
+      "terminal-program:NCSYSVP",
+      "terminal-program:NCWRFORP",
+      "terminal-program:RETOPPGM",
+      "terminal-program:RETRIPGM",
+      "terminal-program:RETRIPGM1",
+      "terminal-program:STOREPGM",
+      "terminal-program:UPDATPGM",
+      "terminal-program:WORKFPGM",
+      "terminal-program:WORKFPGM1",
+      "terminal-program:WORKOPGM",
+      "transaction:HISTOPGM",
+      "transaction:NCINMAPP",
+      "transaction:NCMENUP"
+    ]
+  }
 }

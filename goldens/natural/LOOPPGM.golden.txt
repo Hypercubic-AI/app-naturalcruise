@@ -1,0 +1,20 @@
+ 1 value is 1, 2 or 3
+ 2 value is 1, 2 or 3
+ 3 value is 1, 2 or 3
+ 4 value invalid
+ 5 value is 5
+ 6 value invalid
+ 7 value is 7, 8 or 10
+ 8 value is 7, 8 or 10
+ 9 value invalid
+10 value is 7, 8 or 10
+11 value invalid
+12 value invalid
+13 value is 13 or in range 15 - 18
+14 value invalid
+15 value is 13 or in range 15 - 18
+16 value is 13 or in range 15 - 18
+17 value is 13 or in range 15 - 18
+18 value is 13 or in range 15 - 18
+19 value invalid
+20 value invalid

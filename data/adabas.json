@@ -1,6 +1,12 @@
 {
   "files": [
     {
+      "key": {"dbid": 12, "fnr": 40},
+      "name": "CRUISE2",
+      "descriptors": {"CRUISE-ID": "N", "START-DATE": "N", "END-DATE": "N", "START-HARBOR": "A", "DESTINATION-HARBOR": "A", "ID-YACHT": "N"},
+      "records": []
+    },
+    {
       "key": {"dbid": 12, "fnr": 42},
       "name": "NCYACHT",
       "descriptors": {"YACHT-ID": "N", "YACHT-NAME": "A"},

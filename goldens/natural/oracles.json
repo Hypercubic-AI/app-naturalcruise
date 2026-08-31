@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "programs": {
+    "ARRA2PGM": {"oracle": "report", "golden": "ARRA2PGM.golden.txt"},
+    "ARRAYPGM": {"oracle": "report", "golden": "ARRAYPGM.golden.txt"},
+    "COND": {"oracle": "report", "golden": "COND.golden.txt"},
+    "CONDPGM": {"oracle": "report", "golden": "CONDPGM.golden.txt"},
+    "DELETPGM": {"oracle": "store-state", "golden": "DELETPGM.store.json", "setup_programs": ["STOREPGM"]},
+    "HISTOPGM": {
+      "oracle": "report",
+      "golden": "HISTOPGM.golden.txt",
+      "inputs": [
+        {"fields": {"INPUT-HARBOR": "MIAMI"}, "aid": "ENTER"},
+        {"aid": "ENTER"},
+        {"fields": {"INPUT-HARBOR": ""}, "aid": "ENTER"}
+      ]
+    },
+    "HELLOWORLD": {"oracle": "report", "golden": "HELLOWORLD.golden.txt"},
+    "LOCALVAR": {"oracle": "report", "golden": "LOCALVAR.golden.txt"},
+    "LOOP2PGM": {"oracle": "report", "golden": "LOOP2PGM.golden.txt"},
+    "LOOPPGM": {"oracle": "report", "golden": "LOOPPGM.golden.txt"},
+    "RETOPPGM": {"oracle": "report", "golden": "RETOPPGM.golden.txt"},
+    "RETRIPGM": {"oracle": "diagnostic", "golden": "RETRIPGM.diagnostic.txt"},
+    "RETRIPGM1": {"oracle": "diagnostic", "golden": "RETRIPGM1.diagnostic.txt"},
+    "STOREPGM": {"oracle": "store-state", "golden": "STOREPGM.store.json"},
+    "UPDATPGM": {"oracle": "store-state", "golden": "UPDATPGM.store.json", "setup_programs": ["STOREPGM"]},
+    "WORKFPGM": {
+      "oracle": "report",
+      "golden": "WORKFPGM.golden.txt",
+      "work_files": {"1": "app/EDUCATION/CSV_Files/CRUISE.CSV"}
+    },
+    "WORKFPGM1": {
+      "oracle": "work-file",
+      "golden": "WORKFPGM1.work.csv",
+      "work_file": 2,
+      "work_files": {"1": "app/EDUCATION/CSV_Files/CRUISE.CSV"}
+    },
+    "WORKOPGM": {
+      "oracle": "work-file",
+      "golden": "WORKOPGM.work.csv",
+      "work_file": 2,
+      "work_files": {"1": "app/EDUCATION/CSV_Files/CRUISE.CSV"}
+    }
+  }
+}

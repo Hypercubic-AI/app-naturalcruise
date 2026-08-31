@@ -1,0 +1,7 @@
+{
+  "surface": "job",
+  "description": "Runs the vendored Natural HELLOWORLD program through the production batch spine.",
+  "program": "HELLOWORLD",
+  "date": "20260825",
+  "time": "120000"
+}

@@ -1,0 +1,69 @@
+/*
+* Copyright © 2010 - 2013 Adabas & Natural
+* Copyright © 2013 - 2018 Software AG, Darmstadt, Germany and/or its licensors
+*
+* SPDX-License-Identifier: Apache-2.0
+*
+*   Licensed under the Apache License, Version 2.0 (the "License");
+*   you may not use this file except in compliance with the License.
+*   You may obtain a copy of the License at
+*
+*       http://www.apache.org/licenses/LICENSE-2.0
+*
+*   Unless required by applicable law or agreed to in writing, software
+*   distributed under the License is distributed on an "AS IS" BASIS,
+*   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+*   See the License for the specific language governing permissions and
+*   limitations under the License.                                                            
+*
+*/
+
+DEFINE DATA LOCAL
+ 1 CRUISERECORD
+   2 CRUISE-ID (N8.0)
+   2 YACHT-NAME (A30)
+   2 CRUISE-START (A15)
+   2 CRUISE-END   (A15)
+   2 START-HARBOR (A20)
+   2 DESTINATION-HARBOR (A20)
+   2 PRICE-1W (P10.3)
+ /*
+ 1 CRUISERECORD2
+    2 CRUISE-ID (N8.0)
+    2 YACHT-NAME (A30)
+    2 START-DATE (A8)
+    2 START-TIME (A6)
+    2 END-DATE (A8)
+    2 END-TIME (A6)
+    2 CRUISE-ROUTE (A41)
+    2 PRICE-1W (P10.3)
+ *
+    1 #CNT (N8)
+  END-DEFINE
+    *
+    DEFINE WORK FILE 1 'C:\Training\307-66E\Student\Workfiles\CRUISE.CSV'     TYPE 'CSV'
+    DEFINE WORK FILE 2 'C:\Training\307-66E\Student\Workfiles\CRUISENEW2.CSV' TYPE 'CSV'
+    *
+    READ  WORK 1 CRUISERECORD
+    *
+    MOVE BY NAME CRUISERECORD TO CRUISERECORD2
+    *
+    SEPARATE CRUISE-START INTO START-DATE START-TIME WITH DELIMITER '-'
+    SEPARATE CRUISE-END   INTO END-DATE   END-TIME   WITH DELIMITER '-'
+    *
+    COMPRESS START-HARBOR  DESTINATION-HARBOR
+    INTO CRUISE-ROUTE WITH DELIMITER '-'
+    *
+    WRITE WORK 2 CRUISERECORD2
+    *
+    END-WORK
+    *
+    CLOSE WORK FILE 1
+    CLOSE WORK FILE 2
+    *
+    READ WORK 2 CRUISERECORD2
+    DISPLAY CRUISERECORD2.CRUISE-ID CRUISERECORD2.YACHT-NAME
+        CRUISERECORD2.START-DATE CRUISERECORD2.END-DATE
+    END-WORK
+    *
+ END

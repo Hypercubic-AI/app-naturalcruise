@@ -1,0 +1,51 @@
+/*
+* Copyright © 2010 - 2013 Adabas & Natural
+* Copyright © 2013 - 2018 Software AG, Darmstadt, Germany and/or its licensors
+*
+* SPDX-License-Identifier: Apache-2.0
+*
+*   Licensed under the Apache License, Version 2.0 (the "License");
+*   you may not use this file except in compliance with the License.
+*   You may obtain a copy of the License at
+*
+*       http://www.apache.org/licenses/LICENSE-2.0
+*
+*   Unless required by applicable law or agreed to in writing, software
+*   distributed under the License is distributed on an "AS IS" BASIS,
+*   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+*   See the License for the specific language governing permissions and
+*   limitations under the License.                                                            
+*
+*/
+
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** <h1>Program DELETPGM.</h1>
+/** <p>Natural Training - Example Program</p>
+/** <p>Contents:</p>
+/**     <ul type="square">
+/**         <li>deletes all records from CRUISE2</li> 
+/**         <li>new important Statements:</li>
+/**         <li>DELETE</li>  
+/**         <li>END TRANSACTION</li> 
+/**        </ul>
+/** :author Training
+/* TODO Enter your code here
+/*
+DEFINE DATA LOCAl
+1 CRUISE2VIEW VIEW OF CRUISE2
+1 RECCOUNT (N5)
+END-DEFINE
+/* delete all records from CRUISE2
+R1. READ CRUISE2VIEW
+  DELETE
+  COMPUTE RECCOUNT = RECCOUNT + 1
+END-READ
+*
+END TRANSACTION
+*
+WRITE 'OK - all records deleted in CRUISE2:' RECCOUNT
+*
+END

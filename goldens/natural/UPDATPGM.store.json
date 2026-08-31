@@ -1,0 +1,13 @@
+{
+  "key": {"dbid": 12, "fnr": 40},
+  "count": 7,
+  "records": [
+    {"isn": 1, "fields": {"CRUISE-ID": "13", "START-DATE": "20280901", "END-DATE": "20280908", "DESTINATION-HARBOR": "OSLO"}},
+    {"isn": 2, "fields": {"CRUISE-ID": "196", "START-DATE": "20280910", "END-DATE": "20280917", "DESTINATION-HARBOR": "NAXOS"}},
+    {"isn": 3, "fields": {"CRUISE-ID": "671", "START-DATE": "20280920", "END-DATE": "20280927", "DESTINATION-HARBOR": "NASSAU"}},
+    {"isn": 4, "fields": {"CRUISE-ID": "675", "START-DATE": "20281001", "END-DATE": "20281008", "DESTINATION-HARBOR": "KEY WEST"}},
+    {"isn": 5, "fields": {"CRUISE-ID": "676", "START-DATE": "20281010", "END-DATE": "20281017", "DESTINATION-HARBOR": "NAPLES"}},
+    {"isn": 6, "fields": {"CRUISE-ID": "696", "START-DATE": "20281020", "END-DATE": "20281027", "DESTINATION-HARBOR": "PALERMO"}},
+    {"isn": 7, "fields": {"CRUISE-ID": "1484", "START-DATE": "20281101", "END-DATE": "20281108", "DESTINATION-HARBOR": "JUNEAU"}}
+  ]
+}

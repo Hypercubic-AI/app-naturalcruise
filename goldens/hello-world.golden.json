@@ -1,0 +1,18 @@
+{
+  "job": "HELLOWORLD",
+  "program": "HELLOWORLD",
+  "date": "20260825",
+  "time": "120000",
+  "maxRC": 0,
+  "steps": [
+    {
+      "name": "STEP01",
+      "program": "HELLOWORLD",
+      "returnCode": 0,
+      "sysout": [
+        "Hello world!"
+      ]
+    }
+  ],
+  "catalogedOutputs": []
+}

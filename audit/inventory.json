@@ -1,7 +1,7 @@
 {
   "provenance": {
     "kind": "tree-hash",
-    "hash": "e7d0c5403eec4bdb5a2a929c16f1a96f1c4c520d5e7117b3bd9cdcdeaa65bfce"
+    "hash": "3a6c78207d3a5c00a993fee76e8cc7911ff80e0f525d1afbf4891a63a34fdd3d"
   },
   "upstream_file_hashes": {
     "CRUISE16-RDCRUISE-LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
@@ -28,6 +28,32 @@
     "CRUISE16/Subprograms/CUGET-N.NSN": "f5b4e02a6dbc80dbaca04070eda2352c7967ed3e7344780fc052c38e3a6a7f91",
     "CRUISE16/Subprograms/CUMOD-N.NSN": "78d40c54d920abdfa093b00fec472743fbf34840f8794c20dd679c698479355a",
     "CRUISE16/Subprograms/CUNEW-N.NSN": "a634180e4f21532c36b8aadbc8f8aa11e28e557a646bbab29ddbd0ab97a3c5c3",
+    "EDUCATION-LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "EDUCATION/CSV_Files/CRUISE.CSV": "db4dd70dcee4aeed0de70c3aad3b492902d0db74374ee6bccb2276f170b2e4f8",
+    "EDUCATION/CSV_Files/CRUISENEW1.CSV": "93cf01034f86eebd470a027f06f8d0e2aa62f2c624f869a89fc707061da4022a",
+    "EDUCATION/CSV_Files/CRUISENEW2.CSV": "c14080e1049fa685a62a20356a1392b2182bd290feb90ed7d2f29ec3427c0c38",
+    "EDUCATION/CodeSamples/ARRA2PGM.NSP": "60cee7303fedefe2a21f7c6253f3f1c71d969fc46095cfb4230e7f3ec8bd0686",
+    "EDUCATION/CodeSamples/ARRAYPGM.NSP": "3e2fdfb5ab02ea4c5b7b29835c30ca76b8dd590c2122ab5aec271da568ac5dce",
+    "EDUCATION/CodeSamples/COND.NSP": "b119e22d0336ab6b0f96b3556a3de74443f901e03baae0bc143890c98363f755",
+    "EDUCATION/CodeSamples/CONDPGM.NSP": "6d4836b7d2c3abdffb63e0e18fbe6c2143ba727a607b429bb77a027e860fb449",
+    "EDUCATION/CodeSamples/CRUISE.NSD": "4e4620a6e57d8506a9eea05ff13d262e4ffc45f978f80a2ef01b15ed17f0313c",
+    "EDUCATION/CodeSamples/DDM/CRUISE.NSD": "4e4620a6e57d8506a9eea05ff13d262e4ffc45f978f80a2ef01b15ed17f0313c",
+    "EDUCATION/CodeSamples/DDM/CRUISE2.NSD": "45c4863e13f923d45805b0dba376c2cf90803f7bf18c7f330b694ce3d459ef70",
+    "EDUCATION/CodeSamples/DDM/YACHT.NSD": "94dd2922bb7a3fb6421fd36329f688fa9fd9dc3cc66683b49e9f2ad328bb752a",
+    "EDUCATION/CodeSamples/DELETPGM.NSP": "d8ee81a8a1b19c07a2893b60aeaa3491117eef772655456cb4238b0feba02745",
+    "EDUCATION/CodeSamples/HISTOPGM.NSP": "ca9fd95c6151bb8c96e43abbb5ec6c1b1080f0b5a68bfe61f520b30e68a3ef2f",
+    "EDUCATION/CodeSamples/HelloWorld.NSP": "1d49b6a82b5f40feaf59820b26eb05ffa42ebd54cb8141fb97ecfb6f5d103d05",
+    "EDUCATION/CodeSamples/LOCALVAR.NSP": "0518ee1cfd4f47743753e1165976d6e1db70ba05591d080dea387c034bacea08",
+    "EDUCATION/CodeSamples/LOOP2PGM.NSP": "3e2c6ab0d00fae0f3ffe3df17f4ac7266897c32fe3a409e659303802c05be305",
+    "EDUCATION/CodeSamples/LOOPPGM.NSP": "77a729c94a14411d6dc39d0150dd6a2c8931a6f2292ac34bd2485b164d796ba9",
+    "EDUCATION/CodeSamples/RETOPPGM.NSP": "0737c96b6b5f962a50b5bbefd34ac4ca57bc34debd2bf7630f1eb56e477fcf52",
+    "EDUCATION/CodeSamples/RETRIPGM.NSP": "7761da56a16671473a3f16943661f0cc98758d2927673d64f030155ec6ac2c54",
+    "EDUCATION/CodeSamples/RETRIPGM1.NSP": "9f4f1fc45adc485dee4ee333cc839271a9c01b9d60ec9075c724722bcde985c9",
+    "EDUCATION/CodeSamples/STOREPGM.NSP": "9d1eefbd826da2b8701578959db0e83e03b4d3e309445f3fedac6aa135205b74",
+    "EDUCATION/CodeSamples/UPDATPGM.NSP": "695adb48ebc4e2b8f2e2dcb05f951dae8dbc62bfb684ebd989efa940fd62a421",
+    "EDUCATION/CodeSamples/WORKFPGM.NSP": "f4e5ea1c5fee8aef8423257dbe55595b41ecdb3150be897f2c436cfef9e0e30e",
+    "EDUCATION/CodeSamples/WORKFPGM1.NSP": "38a659610b2c4cf91c4b3578d19895cc88b78ffcf4f8ca5d4d9187977348ff50",
+    "EDUCATION/CodeSamples/WORKOPGM.NSP": "584ea062d05db893c53121368bd23608d68363f4da74c1358b0a2aa1c8d6a7cc",
     "NTCRUISE-LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
     "NTCRUISE/DDMs/NCCRUISE.NSD": "ed7144bd3943c2fc0593967bf697aff78e7db6a18772cc10e3d1b7b5e7e6d473",
     "NTCRUISE/DDMs/NCYACHT.NSD": "b38f09a23ff1655373ddc73a847b8757967b0cc8e5c699433576a5ca64e296c7",
@@ -58,7 +84,1221 @@
     "RDCRUISE/Subprograms/MAKEURL.NSN": "67148f23974217157b54a1c6425ec09015c1656c6ef1b3de132421e33fdd6dae",
     "RDCRUISE/Subprograms/RDREADWN.NSN": "73ef734bdc11cb508835d577e3b257b924ee08f94ca64fcd172b04ce734ca839"
   },
-  "rows": [],
+  "rows": [
+    {
+      "kind": "program",
+      "id": "ARRA2PGM",
+      "name": "ARRA2PGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "ARRAYPGM",
+      "name": "ARRAYPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "CA3900N",
+      "name": "CA3900-N",
+      "unit": "base",
+      "installed": true,
+      "class": "business-subroutine",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-call-target",
+      "csd_defined": false
+    },
+    {
+      "kind": "program",
+      "id": "CAMSGN",
+      "name": "CAMSG-N",
+      "unit": "base",
+      "installed": true,
+      "class": "business-subroutine",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-call-target",
+      "csd_defined": false
+    },
+    {
+      "kind": "program",
+      "id": "COND",
+      "name": "COND",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "CONDPGM",
+      "name": "CONDPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "CONEWN",
+      "name": "CONEW-N",
+      "unit": "base",
+      "installed": true,
+      "class": "business-subroutine",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [
+          "CAMSGN"
+        ],
+        "system_calls": [],
+        "copybooks": [
+          "ERRLOG-I"
+        ]
+      },
+      "justification": "natural-call-target",
+      "csd_defined": false
+    },
+    {
+      "kind": "program",
+      "id": "CRGETN",
+      "name": "CRGET-N",
+      "unit": "base",
+      "installed": true,
+      "class": "business-subroutine",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [
+          "CAMSGN"
+        ],
+        "system_calls": [],
+        "copybooks": [
+          "ERRLOG-I"
+        ]
+      },
+      "justification": "natural-call-target",
+      "csd_defined": false
+    },
+    {
+      "kind": "program",
+      "id": "CRLISTN",
+      "name": "CRLIST-N",
+      "unit": "base",
+      "installed": true,
+      "class": "business-subroutine",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [
+          "CAMSGN"
+        ],
+        "system_calls": [],
+        "copybooks": [
+          "ERRLOG-I"
+        ]
+      },
+      "justification": "natural-call-target",
+      "csd_defined": false
+    },
+    {
+      "kind": "program",
+      "id": "CUGETN",
+      "name": "CUGET-N",
+      "unit": "base",
+      "installed": true,
+      "class": "business-subroutine",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [
+          "CAMSGN"
+        ],
+        "system_calls": [],
+        "copybooks": [
+          "ERRLOG-I"
+        ]
+      },
+      "justification": "natural-call-target",
+      "csd_defined": false
+    },
+    {
+      "kind": "program",
+      "id": "CUMODN",
+      "name": "CUMOD-N",
+      "unit": "base",
+      "installed": true,
+      "class": "business-subroutine",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [
+          "CAMSGN"
+        ],
+        "system_calls": [],
+        "copybooks": [
+          "ERRLOG-I"
+        ]
+      },
+      "justification": "natural-call-target",
+      "csd_defined": false
+    },
+    {
+      "kind": "program",
+      "id": "CUNEWN",
+      "name": "CUNEW-N",
+      "unit": "base",
+      "installed": true,
+      "class": "business-subroutine",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [
+          "CAMSGN"
+        ],
+        "system_calls": [],
+        "copybooks": [
+          "ERRLOG-I"
+        ]
+      },
+      "justification": "natural-call-target",
+      "csd_defined": false
+    },
+    {
+      "kind": "program",
+      "id": "DELETPGM",
+      "name": "DELETPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "HELLOWORLD",
+      "name": "HELLOWORLD",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "HISTOPGM",
+      "name": "HISTOPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "LOCALVAR",
+      "name": "LOCALVAR",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "LOOP2PGM",
+      "name": "LOOP2PGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "LOOPPGM",
+      "name": "LOOPPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "NCATENDP",
+      "name": "NCATENDP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "NCATTOPP",
+      "name": "NCATTOPP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "NCDEDISP",
+      "name": "NCDEDISP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "NCFINDCR",
+      "name": "NCFINDCR",
+      "unit": "base",
+      "installed": true,
+      "class": "business-subroutine",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-call-target",
+      "csd_defined": false
+    },
+    {
+      "kind": "program",
+      "id": "NCINMAPP",
+      "name": "NCINMAPP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [
+          "NCFINDCR"
+        ],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "NCMENUP",
+      "name": "NCMENUP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "NCSYSVP",
+      "name": "NCSYSVP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "NCWRFORP",
+      "name": "NCWRFORP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "RETOPPGM",
+      "name": "RETOPPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "RETRIPGM",
+      "name": "RETRIPGM",
+      "unit": "base",
+      "installed": false,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "RETRIPGM1",
+      "name": "RETRIPGM1",
+      "unit": "base",
+      "installed": false,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "STOREPGM",
+      "name": "STOREPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "UPDATPGM",
+      "name": "UPDATPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "WORKFPGM",
+      "name": "WORKFPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "WORKFPGM1",
+      "name": "WORKFPGM1",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "program",
+      "id": "WORKOPGM",
+      "name": "WORKOPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program",
+      "csd_defined": true
+    },
+    {
+      "kind": "terminal-program",
+      "id": "ARRA2PGM",
+      "name": "ARRA2PGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "ARRAYPGM",
+      "name": "ARRAYPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "COND",
+      "name": "COND",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "CONDPGM",
+      "name": "CONDPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "DELETPGM",
+      "name": "DELETPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "HELLOWORLD",
+      "name": "HELLOWORLD",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "HISTOPGM",
+      "name": "HISTOPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "LOCALVAR",
+      "name": "LOCALVAR",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "LOOP2PGM",
+      "name": "LOOP2PGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "LOOPPGM",
+      "name": "LOOPPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCATENDP",
+      "name": "NCATENDP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCATTOPP",
+      "name": "NCATTOPP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCDEDISP",
+      "name": "NCDEDISP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCINMAPP",
+      "name": "NCINMAPP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [
+          "NCFINDCR"
+        ],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCMENUP",
+      "name": "NCMENUP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCSYSVP",
+      "name": "NCSYSVP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "NCWRFORP",
+      "name": "NCWRFORP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "RETOPPGM",
+      "name": "RETOPPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "RETRIPGM",
+      "name": "RETRIPGM",
+      "unit": "base",
+      "installed": false,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "RETRIPGM1",
+      "name": "RETRIPGM1",
+      "unit": "base",
+      "installed": false,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "STOREPGM",
+      "name": "STOREPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "UPDATPGM",
+      "name": "UPDATPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "WORKFPGM",
+      "name": "WORKFPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "WORKFPGM1",
+      "name": "WORKFPGM1",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "terminal-program",
+      "id": "WORKOPGM",
+      "name": "WORKOPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "deps": {
+        "mapsets": [],
+        "datasets": [],
+        "db2_tables": [],
+        "ims_segments": [],
+        "mq_verbs": [],
+        "called_programs": [],
+        "system_calls": [],
+        "copybooks": []
+      },
+      "justification": "natural-program"
+    },
+    {
+      "kind": "transaction",
+      "id": "HISTOPGM",
+      "name": "HISTOPGM -> HISTOPGM",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "target": "HISTOPGM",
+      "justification": "natural-input-program"
+    },
+    {
+      "kind": "transaction",
+      "id": "NCINMAPP",
+      "name": "NCINMAPP -> NCINMAPP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "target": "NCINMAPP",
+      "justification": "natural-input-program"
+    },
+    {
+      "kind": "transaction",
+      "id": "NCMENUP",
+      "name": "NCMENUP -> NCMENUP",
+      "unit": "base",
+      "installed": true,
+      "class": "business-online",
+      "target": "NCMENUP",
+      "justification": "natural-input-program"
+    }
+  ],
   "files": [
     {
       "relpath": "CRUISE16/Copycodes/ERRLOG-I.NSC",
@@ -197,6 +1437,156 @@
       "unit": "base",
       "axis": "natural",
       "sha256": "a634180e4f21532c36b8aadbc8f8aa11e28e557a646bbab29ddbd0ab97a3c5c3"
+    },
+    {
+      "relpath": "EDUCATION/CSV_Files/CRUISE.CSV",
+      "unit": "base",
+      "axis": "data",
+      "sha256": "db4dd70dcee4aeed0de70c3aad3b492902d0db74374ee6bccb2276f170b2e4f8"
+    },
+    {
+      "relpath": "EDUCATION/CSV_Files/CRUISENEW1.CSV",
+      "unit": "base",
+      "axis": "data",
+      "sha256": "93cf01034f86eebd470a027f06f8d0e2aa62f2c624f869a89fc707061da4022a"
+    },
+    {
+      "relpath": "EDUCATION/CSV_Files/CRUISENEW2.CSV",
+      "unit": "base",
+      "axis": "data",
+      "sha256": "c14080e1049fa685a62a20356a1392b2182bd290feb90ed7d2f29ec3427c0c38"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/ARRA2PGM.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "60cee7303fedefe2a21f7c6253f3f1c71d969fc46095cfb4230e7f3ec8bd0686"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/ARRAYPGM.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "3e2fdfb5ab02ea4c5b7b29835c30ca76b8dd590c2122ab5aec271da568ac5dce"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/COND.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "b119e22d0336ab6b0f96b3556a3de74443f901e03baae0bc143890c98363f755"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/CONDPGM.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "6d4836b7d2c3abdffb63e0e18fbe6c2143ba727a607b429bb77a027e860fb449"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/CRUISE.NSD",
+      "unit": "base",
+      "axis": "ddm",
+      "sha256": "4e4620a6e57d8506a9eea05ff13d262e4ffc45f978f80a2ef01b15ed17f0313c"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/DDM/CRUISE.NSD",
+      "unit": "base",
+      "axis": "ddm",
+      "sha256": "4e4620a6e57d8506a9eea05ff13d262e4ffc45f978f80a2ef01b15ed17f0313c"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/DDM/CRUISE2.NSD",
+      "unit": "base",
+      "axis": "ddm",
+      "sha256": "45c4863e13f923d45805b0dba376c2cf90803f7bf18c7f330b694ce3d459ef70"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/DDM/YACHT.NSD",
+      "unit": "base",
+      "axis": "ddm",
+      "sha256": "94dd2922bb7a3fb6421fd36329f688fa9fd9dc3cc66683b49e9f2ad328bb752a"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/DELETPGM.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "d8ee81a8a1b19c07a2893b60aeaa3491117eef772655456cb4238b0feba02745"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/HISTOPGM.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "ca9fd95c6151bb8c96e43abbb5ec6c1b1080f0b5a68bfe61f520b30e68a3ef2f"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/HelloWorld.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "1d49b6a82b5f40feaf59820b26eb05ffa42ebd54cb8141fb97ecfb6f5d103d05"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/LOCALVAR.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "0518ee1cfd4f47743753e1165976d6e1db70ba05591d080dea387c034bacea08"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/LOOP2PGM.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "3e2c6ab0d00fae0f3ffe3df17f4ac7266897c32fe3a409e659303802c05be305"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/LOOPPGM.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "77a729c94a14411d6dc39d0150dd6a2c8931a6f2292ac34bd2485b164d796ba9"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/RETOPPGM.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "0737c96b6b5f962a50b5bbefd34ac4ca57bc34debd2bf7630f1eb56e477fcf52"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/RETRIPGM.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "7761da56a16671473a3f16943661f0cc98758d2927673d64f030155ec6ac2c54"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/RETRIPGM1.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "9f4f1fc45adc485dee4ee333cc839271a9c01b9d60ec9075c724722bcde985c9"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/STOREPGM.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "9d1eefbd826da2b8701578959db0e83e03b4d3e309445f3fedac6aa135205b74"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/UPDATPGM.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "695adb48ebc4e2b8f2e2dcb05f951dae8dbc62bfb684ebd989efa940fd62a421"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/WORKFPGM.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "f4e5ea1c5fee8aef8423257dbe55595b41ecdb3150be897f2c436cfef9e0e30e"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/WORKFPGM1.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "38a659610b2c4cf91c4b3578d19895cc88b78ffcf4f8ca5d4d9187977348ff50"
+    },
+    {
+      "relpath": "EDUCATION/CodeSamples/WORKOPGM.NSP",
+      "unit": "base",
+      "axis": "natural",
+      "sha256": "584ea062d05db893c53121368bd23608d68363f4da74c1358b0a2aa1c8d6a7cc"
     },
     {
       "relpath": "NTCRUISE/DDMs/NCCRUISE.NSD",

@@ -1,0 +1,1 @@
+Salary is equal to or more than 40000

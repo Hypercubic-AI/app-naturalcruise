@@ -11,6 +11,11 @@
       "repository": "https://github.com/SoftwareAG/adabas-natural-for-ajax-devops-sample-application",
       "commit": "7c282c04b636cc912f2cba05ac343cfc38611739",
       "paths": ["SunnyIslands/CRUISE16", "SunnyIslands/RDCRUISE"]
+    },
+    {
+      "repository": "https://github.com/SoftwareAG/adabas-natural-education-package",
+      "commit": "fc744d3a3b53197e60d02f8609f469b2d313f119",
+      "paths": ["CodeSamples", "CSV_Files", "LICENSE"]
     }
   ]
 }
