@@ -2,7 +2,12 @@
 #   - a runner with the app-lifecycle toolchains (iso doctor)
 #   - access to the isomorphic engine repo (deploy token / PAT as ISO_ENGINE_REPO_TOKEN)
 name: app-ci
-on: [push, pull_request]
+# Manual only (HC-1398). This repo is PUBLIC, and its run logs are public. The
+# battery checks out the private isomorphic and factor repos and builds them,
+# so a run with ISO_ENGINE_REPO_TOKEN set would publish private build output.
+# Do not grant that token, and do not add push or pull_request triggers, while
+# the repo is public. The workflow is also disabled in the repo settings.
+on: workflow_dispatch
 
 env:
   # The engine commit every battery lane runs against, and the key for every
