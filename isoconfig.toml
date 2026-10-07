@@ -9,7 +9,7 @@ display-name = "Natural Cruise"
 frontend = "natural"
 
 [engine]
-version = "dev"
+version = "0.1.0"
 
 [capabilities]
 terminal = true
